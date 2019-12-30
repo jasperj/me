@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514e;
+}
+
+p{
+  line-height: 2;
+
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #8bbabb;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #8bbabb;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+    color: #c7f0db;
+    text-decoration: none;
+}
+
+.aeroplane{
+  width: 30%;
+}
+
+a:hover{
+  color: #eaf6f6;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #8bbabb;
+}
+
+
+hr{
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100px auto;
+
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+.top-container {
+  background-color: #6c7b95;
+  position: relative;
+  padding-top: 100px
+}
+
+.middle-container {
+  margin: 100px 0;
+
+}
+
+.bottom-container {
+  margin-top: 100px;
+  background-color: #6c7b95;
+  padding: 50px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 250px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 400px;
+}
+
+.robot {
+  width: 25%;
+  float: left;
+  margin-right: 30px
+}
+
+.world {
+    width: 25%;
+    float: right;
+    margin-left: 30px
+}
+
+.pilot{
+  width: 25%;
+  float: left;
+  margin-right: 30px
+}
+.contact-me{
+  width: 50%;
+  margin: auto;
+
+}
+
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.8rem;
+  padding: 20px 0px;
+
+}
+
+.headshot{
+  width: 25%;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.btn {
+  text-align: center;
+  box-shadow: 0px 10px 14px -7px #276873;
+	background-color:#8bbabb;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+  margin: 50px auto 0 auto;
+}
+.btn:hover {
+	background-color:#408c99;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+
+
+}
