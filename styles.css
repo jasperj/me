@@ -11,7 +11,7 @@ p{
 }
 
 h1 {
-  margin: 50px auto 0 auto;
+  margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   color: #8bbabb;
@@ -25,6 +25,12 @@ h2 {
   padding-bottom: 10px;
 }
 
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #8bbabb;
+}
+
+
 a{
   font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
@@ -34,6 +40,7 @@ a{
 
 .aeroplane{
   width: 30%;
+  transform: rotate(30deg);
 }
 
 a:hover{
@@ -41,10 +48,6 @@ a:hover{
 
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  color: #8bbabb;
-}
 
 
 hr{
@@ -56,7 +59,7 @@ hr{
 }
 
 .skill-row{
-  width: 50%;
+  width: 70%;
   margin: 100px auto 100px auto;
   text-align: left;
 
@@ -64,7 +67,7 @@ hr{
 .top-container {
   background-color: #6c7b95;
   position: relative;
-  padding-top: 100px
+  padding-top: 100px;
 }
 
 .middle-container {
@@ -75,7 +78,7 @@ hr{
 .bottom-container {
   margin-top: 100px;
   background-color: #6c7b95;
-  padding: 50px;
+  padding: 50px 0 20px 0;
 }
 
 .pro {
@@ -84,35 +87,46 @@ hr{
 
 .top-cloud {
   position: absolute;
-  right: 250px;
+  right: 50px;
   top: 50px;
+  max-width: 18%;
+  width: 20%;
+
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 250px;
-  bottom: 400px;
+  left: 50px;
+  bottom: 100px;
+  max-width: 18%;
+  width: 20%;
+
+
 }
 
+.skill-images {
+  width: 30%;
+  padding: 0 0 10px 0;
+
+
+}
 .robot {
-  width: 25%;
   float: left;
-  margin-right: 30px
+  margin-right: 30px;
 }
 
 .world {
-    width: 25%;
     float: right;
-    margin-left: 30px
+    margin-left: 30px;
 }
 
 .pilot{
-  width: 25%;
   float: left;
-  margin-right: 30px
+  margin-right: 30px;
 }
+
 .contact-me{
-  width: 50%;
+  width: 70%;
   margin: auto;
 
 }
@@ -129,7 +143,7 @@ hr{
 }
 
 .intro{
-  width: 30%;
+  width: 60%;
   margin: auto;
 }
 
@@ -142,7 +156,7 @@ hr{
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:20px;
+	font-size:18px;
 	font-weight:bold;
 	padding:13px 32px;
 	text-decoration:none;
